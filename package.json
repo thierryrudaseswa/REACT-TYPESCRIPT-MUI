@@ -21,9 +21,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "start:mightymeld": "react-app-rewired start",
-    "build": "react-scripts build",
+    "start": "node init && react-scripts start",
+    "start:mightymeld": "node init && react-app-rewired start",
+    "build": "node init && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
